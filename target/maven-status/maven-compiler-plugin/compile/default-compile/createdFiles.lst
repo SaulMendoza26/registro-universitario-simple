@@ -1,0 +1,12 @@
+com/proyects/repository/DAOStudentImpl.class
+com/proyects/controller/ControllerMain.class
+com/proyects/model/Course.class
+com/proyects/sevice/ServiceStudentImpl.class
+com/proyects/repository/DAOStudent.class
+com/proyects/sevice/ServiceCourse.class
+com/proyects/repository/DAOCourse.class
+com/proyects/model/Professor.class
+com/proyects/sevice/ServiceStudent.class
+com/proyects/repository/DAOCourseImpl.class
+com/proyects/sevice/ServiceCourseImpl.class
+com/proyects/model/Student.class

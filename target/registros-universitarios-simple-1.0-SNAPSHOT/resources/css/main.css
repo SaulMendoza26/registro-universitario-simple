@@ -1,0 +1,7 @@
+.container-main {
+    display: grid;
+
+    height: 100vh;
+    /* Altura completa de la pantalla */
+    place-items: center;
+}

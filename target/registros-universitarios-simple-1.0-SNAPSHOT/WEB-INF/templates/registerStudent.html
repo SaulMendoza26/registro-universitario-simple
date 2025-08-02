@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" th:href="@{/resources/css/bootstrap.min.css}" />
+    <link rel="stylesheet" th:href="@{/resources/css/bootstrap.css}" />
+    <link rel="stylesheet" th:href="@{/resources/css/main.css}" />
+    <script th:src="@{/resources/js/bootstrap.bundle.min.js}"></script>
+    <title>Register Student </title>
+</head>
+
+<body class="container">
+    <div class="row title text-center">
+        <h1>Register Student</h1>
+    </div>
+    <div class="container-fluid row">
+        <form th:action="@{/saveStudent}" th:object="${student}" method="post" class="col-12">
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="name" th:field="*{name}" />
+            </div>
+            <div  th:classappend="${#fields.hasErrors('name')} ? 'alert alert-danger' : 'bg-light'">
+                <span role="alert" th:if="${#fields.hasErrors('name')}" th:errors="*{name}"></span>
+            </div>
+            <div class="mb-3">
+                <label for="lastName" class="form-label">Last Name:</label>
+                <input type="text" class="form-control" id="lastName" placeholder="name" th:field="*{lastName}" />
+            </div>
+            <div  th:classappend="${#fields.hasErrors('lastName')} ? 'alert alert-danger' : 'bg-light'" >
+                  <span  role="alert" th:if="${#fields.hasErrors('lastName')}" th:errors="*{lastName}"></span>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email:</label>
+                <input type="text" class="form-control" id="email" placeholder="name" th:field="*{email}" />
+            </div>
+            <div  th:classappend="${#fields.hasErrors('email')} ? 'alert alert-danger' : 'bg-light'" >
+                  <span  role="alert" th:if="${#fields.hasErrors('email')}" th:errors="*{email}"></span>
+            </div>
+
+            <!-- th:text="#{${'student.course.' + course}}" -->
+            <div class="mb-3">
+                <label for="course" class="form-label">Course</label>
+                <select class="form-select" id="course" th:field="*{course.id}">
+                    <option th:each="course : ${allCourses}" th:value="${course.id}" th:text="${course.name}">
+                        Courses</option>
+                </select>
+            </div>
+            <input type="submit" class="form-control" placeholder="name" value="Guardar" />
+        </form>
+    </div>
+</body>
+
+</html>

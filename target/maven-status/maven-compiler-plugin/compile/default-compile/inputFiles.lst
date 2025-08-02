@@ -1,0 +1,12 @@
+/home/samir/Documentos/proyectos/Spring/registro-universitario-simple/registros-universitarios-simple/src/main/java/com/proyects/controller/ControllerMain.java
+/home/samir/Documentos/proyectos/Spring/registro-universitario-simple/registros-universitarios-simple/src/main/java/com/proyects/model/Course.java
+/home/samir/Documentos/proyectos/Spring/registro-universitario-simple/registros-universitarios-simple/src/main/java/com/proyects/model/Professor.java
+/home/samir/Documentos/proyectos/Spring/registro-universitario-simple/registros-universitarios-simple/src/main/java/com/proyects/model/Student.java
+/home/samir/Documentos/proyectos/Spring/registro-universitario-simple/registros-universitarios-simple/src/main/java/com/proyects/repository/DAOCourse.java
+/home/samir/Documentos/proyectos/Spring/registro-universitario-simple/registros-universitarios-simple/src/main/java/com/proyects/repository/DAOCourseImpl.java
+/home/samir/Documentos/proyectos/Spring/registro-universitario-simple/registros-universitarios-simple/src/main/java/com/proyects/repository/DAOStudent.java
+/home/samir/Documentos/proyectos/Spring/registro-universitario-simple/registros-universitarios-simple/src/main/java/com/proyects/repository/DAOStudentImpl.java
+/home/samir/Documentos/proyectos/Spring/registro-universitario-simple/registros-universitarios-simple/src/main/java/com/proyects/sevice/ServiceCourse.java
+/home/samir/Documentos/proyectos/Spring/registro-universitario-simple/registros-universitarios-simple/src/main/java/com/proyects/sevice/ServiceCourseImpl.java
+/home/samir/Documentos/proyectos/Spring/registro-universitario-simple/registros-universitarios-simple/src/main/java/com/proyects/sevice/ServiceStudent.java
+/home/samir/Documentos/proyectos/Spring/registro-universitario-simple/registros-universitarios-simple/src/main/java/com/proyects/sevice/ServiceStudentImpl.java
